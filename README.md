@@ -71,7 +71,7 @@ comments.
 for inclusion in ReactiveUI.
 * RFCs that are candidates for inclusion in ReactiveUI will enter a "final comment
 period" lasting 7 days. The beginning of this period will be signaled with a
-comment and tag on the RFC's pull request and on the Reactive Inc. Slack instance. Furthermore,
+comment and tag on the RFC's pull request and on the [Reactive Inc. Slack instance](http://reactiveui.net/slack). Furthermore,
 [ReactiveUI's official Twitter account](https://twitter.com/reactivexui) will post a
 tweet about the RFC to attract the community's attention. 
 * An RFC can be modified based upon feedback from the [core team] and community.
@@ -119,7 +119,7 @@ Each week the [core team] will attempt to review some set of open RFC
 pull requests.
 
 We try to make sure that any RFC that we accept is accepted at the
-Friday team meeting, and reported in [core team notes]. Every
+Friday team meeting, and reported in [meeting minutes]. Every
 accepted feature should have a core team champion, who will represent
 the feature and its progress.
 
@@ -127,6 +127,6 @@ the feature and its progress.
 
 [Ember RFC process]: https://github.com/emberjs/rfcs
 [Rust RFC process]: https://github.com/rust-lang/rfcs
-[core team]: http://emberjs.com/team/
+[core team]: https://reactiveui.net/team/
 [feature flag]: http://emberjs.com/guides/contributing/adding-new-features/
-[core team notes]: https://github.com/emberjs/core-notes/tree/master/ember.js
+[meeting minutes]: https://github.com/reactiveui/meeting-minutes/
