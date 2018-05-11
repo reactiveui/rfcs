@@ -1,6 +1,6 @@
 - Start Date: (fill me in with today's date, YYYY-MM-DD)
 - RFC PR: (leave this empty)
-- Ember Issue: (leave this empty)
+- ReactiveUI Issue: (leave this empty)
 
 # Summary
 
@@ -22,20 +22,20 @@ familiar with the implementation to implement.
 
 # How We Teach This
 
-Would the acceptance of this proposal mean the Ember guides must be
-re-organized or altered? Does it change how Ember is taught to new users
+Would the acceptance of this proposal mean the ReactiveUI guides must be
+re-organized or altered? Does it change how ReactiveUI is taught to new users
 at any level?
 
 Does it mean we need to put effort into highlighting the replacement
 functionality more? What should we do about documentation, in the guides
 related to this feature?
 
-How should this deprecation be introduced and explained to existing Ember
+How should this deprecation be introduced and explained to existing ReactiveUI
 users?
 
 # Drawbacks
 
-Why should we *not* do this? Please consider the impact on teaching Ember,
+Why should we *not* do this? Please consider the impact on teaching ReactiveUI,
 on the integration of this feature with other existing and planned features,
 on the impact of the API churn on existing apps, etc.
 
