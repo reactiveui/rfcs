@@ -4,7 +4,7 @@ Many changes, including bug fixes and documentation improvements can be
 implemented and reviewed via the normal GitHub pull request workflow.
 
 Some changes though are "substantial", and we ask that these be put
-through a bit of a design process and produce a consensus among the Ember
+through a bit of a design process and produce a consensus among the ReactiveUI
 core team.
 
 The "RFC" (request for comments) process is intended to provide a
@@ -86,7 +86,7 @@ become 'active'.
 ## The RFC life-cycle
 
 Once an RFC becomes active then authors may implement it and submit the
-feature as a pull request to the Ember repo. Becoming 'active' is not a rubber
+feature as a pull request to the ReactiveUI repo. Becoming 'active' is not a rubber
 stamp, and in particular still does not mean the feature will ultimately
 be merged; it does mean that the core team has agreed to it in principle
 and are amenable to merging it.
