@@ -1,4 +1,4 @@
-# Ember RFCs
+# ReactiveUI RFCs
 
 Many changes, including bug fixes and documentation improvements can be
 implemented and reviewed via the normal GitHub pull request workflow.
@@ -10,12 +10,12 @@ core team.
 The "RFC" (request for comments) process is intended to provide a
 consistent and controlled path for new features to enter the framework.
 
-[Active RFC List](https://github.com/emberjs/rfcs/pulls)
+[Active RFC List](https://github.com/reactiveui/rfcs/pulls)
 
 ## When you need to follow this process
 
 You need to follow this process if you intend to make "substantial"
-changes to Ember, Ember Data or its documentation. What constitutes a
+changes to ReactiveUI, its subprojects or its documentation. What constitutes a
 "substantial" change is evolving based on community norms, but may
 include the following.
 
@@ -24,7 +24,7 @@ include the following.
    - The removal of features that already shipped as part of the release
      channel.
    - The introduction of new idiomatic usage or conventions, even if they
-     do not include code changes to Ember itself.
+     do not include code changes to ReactiveUI itself.
 
 Some changes do not require an RFC:
 
@@ -32,8 +32,8 @@ Some changes do not require an RFC:
    - Addition or removal of warnings
    - Additions that strictly improve objective, numerical quality
 criteria (speedup, better browser support)
-   - Additions only likely to be _noticed by_ other implementors-of-Ember,
-invisible to users-of-Ember.
+   - Additions only likely to be _noticed by_ other implementors-of-ReactiveUI,
+invisible to users-of-ReactiveUI.
 
 If you submit a pull request to implement a new feature without going
 through the RFC process, it may be closed with a polite request to
@@ -49,12 +49,12 @@ design.
 
 ## What the process is
 
-In short, to get a major feature added to Ember, one must first get the
+In short, to get a major feature added to ReactiveUI, one must first get the
 RFC merged into the RFC repo as a markdown file. At that point the RFC
 is 'active' and may be implemented with the goal of eventual inclusion
-into Ember.
+into ReactiveUI.
 
-* Fork the RFC repo http://github.com/emberjs/rfcs
+* Fork the RFC repo http://github.com/reactiveui/rfcs
 * Copy `0000-template.md` to `text/0000-my-feature.md` (where
 'my-feature' is descriptive. don't assign an RFC number yet).
 * Fill in the RFC. Put care into the details: **RFCs that do not
@@ -68,12 +68,12 @@ to revise it in response.
 are much more likely to make progress than those that don't receive any
 comments.
 * Eventually, the [core team] will decide whether the RFC is a candidate
-for inclusion in Ember.
-* RFCs that are candidates for inclusion in Ember will enter a "final comment
+for inclusion in ReactiveUI.
+* RFCs that are candidates for inclusion in ReactiveUI will enter a "final comment
 period" lasting 7 days. The beginning of this period will be signaled with a
-comment and tag on the RFC's pull request. Furthermore,
-[Ember's official Twitter account](https://twitter.com/emberjs) will post a
-tweet about the RFC to attract the community's attention.
+comment and tag on the RFC's pull request and on the [Reactive Inc. Slack instance](http://reactiveui.net/slack). Furthermore,
+[ReactiveUI's official Twitter account](https://twitter.com/reactivexui) will post a
+tweet about the RFC to attract the community's attention. 
 * An RFC can be modified based upon feedback from the [core team] and community.
 Significant modifications may trigger a new final comment period.
 * An RFC may be rejected by the [core team] after public discussion has settled
@@ -119,13 +119,14 @@ Each week the [core team] will attempt to review some set of open RFC
 pull requests.
 
 We try to make sure that any RFC that we accept is accepted at the
-Friday team meeting, and reported in [core team notes]. Every
+Friday team meeting, and reported in [meeting minutes]. Every
 accepted feature should have a core team champion, who will represent
 the feature and its progress.
 
-**Ember's RFC process owes its inspiration to the [Rust RFC process]**
+**ReactiveUI's RFC process owes its inspiration to the [Ember RFC process], in turn inspired by the [Rust RFC process]**
 
+[Ember RFC process]: https://github.com/emberjs/rfcs
 [Rust RFC process]: https://github.com/rust-lang/rfcs
-[core team]: http://emberjs.com/team/
+[core team]: https://reactiveui.net/team/
 [feature flag]: http://emberjs.com/guides/contributing/adding-new-features/
-[core team notes]: https://github.com/emberjs/core-notes/tree/master/ember.js
+[meeting minutes]: https://github.com/reactiveui/meeting-minutes/
