@@ -16,7 +16,7 @@ As part of `v8.0.0` ReactiveUI the minimum version of UWP was changed to be `10.
 
 ## Detailed design
 
-* Change min platform from `16299` to `15063`
+* Change min platform from `16299` to `15063` in ReactiveUI & Splat
 * Adopt policy of always supporting latest - 1 release for the UWP platform.
 
 ## How we teach this
