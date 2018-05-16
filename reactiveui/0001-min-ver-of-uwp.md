@@ -10,10 +10,10 @@ As part of `v8.0.0` ReactiveUI the target platform and minimum version of UWP wa
 
 After some digging and discussions it appears that RS3 aka `16299` is the min version supported by `netstandard20` so this was the correct choice for now. It's not the correct choice going forward however.
 
-I'm proposing that we change our support matrix for UWP going forward will be as follows:
+I'm proposing that going forward we change our support matrix for UWP to be as follows:
 
 * the target platform will be latest stable UWP SDK release from Microsoft.
-* the min version is oldest possible given constraints balanced against the concern that contributors having to install multiple gigabytes of SDK's for a platform they may not use to contribute to the project is an anti-pattern.
+* the min version is oldest possible that feels reasonable to maintain (i.e. contributors having to install 4+ SDKs maybe unreasonable and a hinderance to contribution)
 
 
 ## Motivation
